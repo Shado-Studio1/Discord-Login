@@ -30,7 +30,7 @@ module.exports = {
     const reason = interaction.options.getString("reason");
 
     // استخدام ID القناة بدل name
-    const logChannel = interaction.guild.channels.cache.get("1416869215503122584");
+    const logChannel = interaction.guild.channels.cache.get("ID Log RePort");
 
     if (!logChannel) {
       return interaction.editReply({ content: "⚠️ لم يتم العثور على قناة اللوج." });
